@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #242424;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+ 
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  border-radius: 10px;
+}
+
+.current-weather, .hourly-forecast, .daily-forecast, .weather-details, .weather-chart {
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+}
+.current{
+ 
+}
+.forecast-container, .weather-details {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
+}
+
+.forecast-hour, .forecast-day, .detail-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
